@@ -117,8 +117,9 @@ h1 {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px 10px 0 0;
   padding: 15px 20px;
+  font-size: 30px;
   position: absolute;
-  bottom: -50px;
+  bottom: -70px;
 }
 
 .notification-container p {
@@ -126,5 +127,5 @@ h1 {
 }
 
 .notification-container.show {
-  transform: translateY(-50px);
+  transform: translateY(-70px);
 }
