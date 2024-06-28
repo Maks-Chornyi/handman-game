@@ -56,7 +56,7 @@ function updateWrongLettersEl() {
 
   //check if lost
   if (wrongLetters.length === figureParts.length) {
-    finalMsg.innerText = "Unfortunately you lost. So sad...";
+    finalMsg.innerText = "Unfortunately you died. So sad...";
     setTimeout(() => {
       popup.style.display = "flex";
     }, 500);
